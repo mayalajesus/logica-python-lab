@@ -58,11 +58,3 @@ Total: 156 atividades.
 - Manter os notebooks organizados para leitura no GitHub.
 - Registrar o progresso em [`docs/progresso.md`](docs/progresso.md).
 
-## Autora
-
-Mayala Jesus  
-GitHub: [@mayalajesus](https://github.com/mayalajesus)
-
-## Licença
-
-Uso livre para estudo, prática e compartilhamento.
