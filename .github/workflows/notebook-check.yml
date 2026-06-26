@@ -1,0 +1,45 @@
+name: Notebook Check
+
+on:
+  push:
+    paths:
+      - "**.ipynb"
+      - ".github/workflows/notebook-check.yml"
+  pull_request:
+    paths:
+      - "**.ipynb"
+      - ".github/workflows/notebook-check.yml"
+
+jobs:
+  validate-notebook:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+
+      - name: Validate notebook JSON
+        run: python -m json.tool 01_condicionais_e_loops.ipynb > /dev/null
+
+      - name: Count activities
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+
+          notebook = json.loads(Path("01_condicionais_e_loops.ipynb").read_text(encoding="utf-8"))
+          activities = sum(
+              1
+              for cell in notebook["cells"]
+              if cell["cell_type"] == "markdown"
+              and "".join(cell["source"]).startswith("### Atividade")
+          )
+
+          print(f"Atividades encontradas: {activities}")
+          assert activities == 80, "O notebook deve manter 80 atividades."
+          PY
