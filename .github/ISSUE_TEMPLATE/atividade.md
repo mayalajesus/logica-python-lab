@@ -1,6 +1,6 @@
 ---
 name: Atividade
-about: Registre uma duvida ou melhoria em uma atividade
+about: Registre uma dúvida ou sugestão de melhoria em uma atividade
 title: "Atividade XX: "
 labels: atividade
 assignees: ""
@@ -8,10 +8,9 @@ assignees: ""
 
 ## Atividade
 
-Numero:
+Número:
 
-## O que precisa ser revisto?
+## O que precisa ser revisado?
 
 
-## Observacoes
-
+## Observações

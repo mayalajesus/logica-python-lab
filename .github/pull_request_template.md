@@ -7,5 +7,5 @@
 ## Checklist
 
 - [ ] O notebook abre corretamente
-- [ ] As atividades continuam sem gabarito
-- [ ] O treino continua organizado do facil ao dificil
+- [ ] As atividades continuam apenas com enunciados
+- [ ] A sequência continua organizada do fácil ao difícil
