@@ -2,16 +2,26 @@
 
 ![Python](https://img.shields.io/badge/Python-3.x-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
-![Status](https://img.shields.io/badge/Status-Em%20desenvolvimento-00A86B?style=for-the-badge)
+![Exercícios](https://img.shields.io/badge/Exerc%C3%ADcios-80-00A86B?style=for-the-badge)
 ![Nível](https://img.shields.io/badge/N%C3%ADvel-F%C3%A1cil%20ao%20avan%C3%A7ado-8A2BE2?style=for-the-badge)
 
-> Repositório de exercícios progressivos de lógica de programação com Python.
+Repositório pessoal de prática em lógica de programação com Python.
 
-Este repositório reúne atividades para praticar condicionais, laços de repetição, strings, listas, matrizes e problemas de raciocínio algorítmico.
+Este projeto funciona como um caderno público de exercícios. A ideia é registrar minha evolução resolvendo problemas de lógica, começando por condicionais e laços de repetição, até chegar em desafios mais próximos de entrevistas técnicas e plataformas como LeetCode.
 
-A proposta é resolver os exercícios diretamente no notebook, mantendo o histórico de tentativas e melhorias ao longo do tempo.
+## Objetivo
 
-## Organização
+Praticar programação de forma consistente, com foco em:
+
+- leitura e interpretação de problemas;
+- condicionais;
+- laços de repetição;
+- manipulação de strings;
+- listas e matrizes;
+- raciocínio algorítmico;
+- escrita de soluções claras em Python.
+
+## Conteúdo
 
 | Nível | Tema | Foco |
 | --- | --- | --- |
@@ -26,39 +36,32 @@ A proposta é resolver os exercícios diretamente no notebook, mantendo o histó
 | 9 | Estilo LeetCode | funções e eficiência |
 | 10 | Desafios longos | minissistemas e simulações |
 
-## Arquivos
+## Arquivos principais
 
-- [`01_condicionais_e_loops.ipynb`](01_condicionais_e_loops.ipynb): notebook principal com 80 atividades.
-- [`.github/workflows/notebook-check.yml`](.github/workflows/notebook-check.yml): validação automática do notebook no GitHub Actions.
+- [`01_condicionais_e_loops.ipynb`](01_condicionais_e_loops.ipynb): notebook com 80 atividades.
+- [`docs/plano-de-estudo.md`](docs/plano-de-estudo.md): sugestão de sequência para resolver os exercícios.
+- [`docs/progresso.md`](docs/progresso.md): controle de avanço por nível.
 
-## Como usar
+## Como estou usando este repositório
 
-1. Abra o notebook no GitHub, Jupyter, VS Code ou Google Colab.
-2. Resolva uma atividade por vez.
-3. Escreva sua resposta na célula abaixo do enunciado.
-4. Crie seus próprios testes.
-5. Faça commits conforme avançar.
-
-## Progresso
-
-- [ ] Nível 1 - Aquecimento
-- [ ] Nível 2 - Condicionais compostas
-- [ ] Nível 3 - Laços básicos
-- [ ] Nível 4 - Laços com decisão
-- [ ] Nível 5 - Strings com laços
-- [ ] Nível 6 - Listas e raciocínio sequencial
-- [ ] Nível 7 - Laços aninhados
-- [ ] Nível 8 - Desafios integrados
-- [ ] Nível 9 - Estilo LeetCode
-- [ ] Nível 10 - Desafios longos
+1. Escolho um bloco de atividades.
+2. Resolvo os exercícios no notebook.
+3. Faço pequenos commits conforme avanço.
+4. Reviso soluções antigas para melhorar nomes, clareza e testes.
+5. Registro o progresso em [`docs/progresso.md`](docs/progresso.md).
 
 ## Critérios
 
-- Resolva os exercícios antes de consultar soluções externas.
-- Priorize condicionais e laços de repetição.
-- Evite funções prontas quando o objetivo for treinar a lógica manual.
-- Refatore depois de fazer funcionar.
-- Documente o raciocínio quando isso ajudar na revisão.
+- Resolver antes de consultar soluções externas.
+- Priorizar condicionais e laços quando o objetivo for treinar lógica.
+- Evitar atalhos de biblioteca quando o exercício pedir implementação manual.
+- Refatorar depois que a primeira solução funcionar.
+- Manter o notebook organizado para leitura no GitHub.
+
+## Autora
+
+Mayala Jesus  
+GitHub: [@mayalajesus](https://github.com/mayalajesus)
 
 ## Licença
 
