@@ -11,7 +11,7 @@ on:
       - ".github/workflows/notebook-check.yml"
 
 jobs:
-  validate-notebook:
+  validate-notebooks:
     runs-on: ubuntu-latest
 
     steps:
@@ -23,23 +23,28 @@ jobs:
         with:
           python-version: "3.x"
 
-      - name: Validate notebook JSON
-        run: python -m json.tool 01_condicionais_e_loops.ipynb > /dev/null
-
-      - name: Count activities
+      - name: Validate notebooks
         run: |
           python - <<'PY'
           import json
           from pathlib import Path
 
-          notebook = json.loads(Path("01_condicionais_e_loops.ipynb").read_text(encoding="utf-8"))
-          activities = sum(
-              1
-              for cell in notebook["cells"]
-              if cell["cell_type"] == "markdown"
-              and "".join(cell["source"]).startswith("### Atividade")
-          )
+          notebooks = sorted(Path(".").glob("*.ipynb"))
+          assert len(notebooks) == 7, f"Esperados 7 notebooks, encontrados {len(notebooks)}."
 
-          print(f"Atividades encontradas: {activities}")
-          assert activities == 80, "O notebook deve manter 80 atividades."
+          total = 0
+          for path in notebooks:
+              data = json.loads(path.read_text(encoding="utf-8"))
+              activities = sum(
+                  1
+                  for cell in data["cells"]
+                  if cell["cell_type"] == "markdown"
+                  and "".join(cell["source"]).startswith("### Atividade")
+              )
+              print(f"{path}: {activities} atividades")
+              assert activities > 0, f"{path} não possui atividades."
+              total += activities
+
+          print(f"Total de atividades: {total}")
+          assert total == 156, "A trilha deve manter 156 atividades."
           PY

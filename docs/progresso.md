@@ -1,22 +1,19 @@
 # Progresso
 
-Controle simples para acompanhar a evolução no notebook.
+Controle simples para acompanhar a evolução nos notebooks.
 
-| Nível | Tema | Status | Observações |
-| --- | --- | --- | --- |
-| 1 | Aquecimento | Pendente |  |
-| 2 | Condicionais compostas | Pendente |  |
-| 3 | Laços básicos | Pendente |  |
-| 4 | Laços com decisão | Pendente |  |
-| 5 | Strings com laços | Pendente |  |
-| 6 | Listas e raciocínio sequencial | Pendente |  |
-| 7 | Laços aninhados | Pendente |  |
-| 8 | Desafios integrados | Pendente |  |
-| 9 | Estilo LeetCode | Pendente |  |
-| 10 | Desafios longos | Pendente |  |
+| Notebook | Tema | Atividades | Status | Observações |
+| --- | --- | ---: | --- | --- |
+| `01_fundamentos_python.ipynb` | fundamentos de Python | 24 | Pendente |  |
+| `02_decisoes_e_repeticao.ipynb` | condicionais e laços | 24 | Pendente |  |
+| `03_colecoes_e_texto.ipynb` | coleções e texto | 24 | Pendente |  |
+| `04_funcoes_e_modularizacao.ipynb` | funções e modularização | 24 | Pendente |  |
+| `05_algoritmos_classicos.ipynb` | algoritmos clássicos | 24 | Pendente |  |
+| `06_arquivos_erros_e_dados.ipynb` | arquivos, erros e dados | 18 | Pendente |  |
+| `07_desafios_integrados.ipynb` | desafios integrados | 18 | Pendente |  |
 
 ## Registro de estudo
 
-| Data | Atividades | O que foi feito |
-| --- | --- | --- |
-|  |  |  |
+| Data | Notebook | Atividades | O que foi feito |
+| --- | --- | --- | --- |
+|  |  |  |  |

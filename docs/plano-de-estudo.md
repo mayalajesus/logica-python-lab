@@ -1,50 +1,39 @@
 # Plano de estudo
 
-Este plano organiza o notebook em uma sequência de prática. A divisão é apenas uma sugestão; o ritmo pode ser ajustado conforme a dificuldade de cada bloco.
+Este plano organiza os notebooks em uma sequência de prática. A divisão é uma sugestão para manter constância e revisar soluções antigas com calma.
 
-## Semana 1
+## Etapa 1 - Fundamentos
 
-| Dia | Atividades | Tema |
+| Semana | Notebook | Foco |
 | --- | --- | --- |
-| 1 | 01 a 04 | condicionais simples |
-| 2 | 05 a 08 | validações básicas |
-| 3 | 09 a 12 | condicionais compostas |
-| 4 | 13 a 16 | regras com múltiplas condições |
-| 5 | revisão | refatoração e testes |
+| 1 | `01_fundamentos_python.ipynb` | entrada, saída, variáveis, tipos, operadores e conversões |
+| 2 | `02_decisoes_e_repeticao.ipynb` | condicionais, laços, validação, contadores e acumuladores |
 
-## Semana 2
+## Etapa 2 - Estruturas básicas
 
-| Dia | Atividades | Tema |
+| Semana | Notebook | Foco |
 | --- | --- | --- |
-| 1 | 17 a 20 | laços básicos |
-| 2 | 21 a 24 | acumuladores e sequências |
-| 3 | 25 a 28 | contadores e sentinelas |
-| 4 | 29 a 32 | cálculo com repetição |
-| 5 | revisão | leitura e simplificação das soluções |
+| 3 | `03_colecoes_e_texto.ipynb` | strings, listas, tuplas, conjuntos, dicionários e matrizes |
+| 4 | `04_funcoes_e_modularizacao.ipynb` | funções, parâmetros, retorno, escopo e decomposição |
 
-## Semana 3
+## Etapa 3 - Algoritmos
 
-| Dia | Atividades | Tema |
+| Semana | Notebook | Foco |
 | --- | --- | --- |
-| 1 | 33 a 36 | strings |
-| 2 | 37 a 40 | padrões em texto |
-| 3 | 41 a 44 | listas |
-| 4 | 45 a 48 | busca e comparação |
-| 5 | revisão | testes com casos extremos |
+| 5 | `05_algoritmos_classicos.ipynb` | busca, ordenação, recursão e problemas clássicos |
+| 6 | revisão dos notebooks 1 a 5 | reescrita de soluções, testes e comparação de abordagens |
 
-## Semana 4
+## Etapa 4 - Dados e projetos
 
-| Dia | Atividades | Tema |
+| Semana | Notebook | Foco |
 | --- | --- | --- |
-| 1 | 49 a 56 | laços aninhados e matrizes |
-| 2 | 57 a 64 | desafios integrados |
-| 3 | 65 a 72 | estilo LeetCode |
-| 4 | 73 a 80 | desafios longos |
-| 5 | revisão | organização final do notebook |
+| 7 | `06_arquivos_erros_e_dados.ipynb` | arquivos, erros, CSV, JSON e validação |
+| 8 | `07_desafios_integrados.ipynb` | mini-sistemas, jogos, simulações e projetos de raciocínio |
 
 ## Rotina sugerida
 
 - Resolver primeiro de forma simples.
-- Testar com entradas fáceis, limites e casos inesperados.
-- Melhorar nomes de variáveis depois.
-- Comparar a solução atual com versões anteriores quando fizer sentido.
+- Testar entradas comuns, limites e casos inesperados.
+- Melhorar nomes e organização depois.
+- Registrar dúvidas ou pontos de melhoria.
+- Fazer commits pequenos para manter o histórico legível.
